@@ -1,0 +1,454 @@
+[debug] [2023-07-16T10:23:29.017Z] ----------------------------------------------------------------------
+[debug] [2023-07-16T10:23:29.018Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\TANMAY\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-07-16T10:23:29.019Z] CLI Version:   12.4.4
+[debug] [2023-07-16T10:23:29.019Z] Platform:      win32
+[debug] [2023-07-16T10:23:29.019Z] Node Version:  v18.12.1
+[debug] [2023-07-16T10:23:29.027Z] Time:          Sun Jul 16 2023 15:53:29 GMT+0530 (India Standard Time)
+[debug] [2023-07-16T10:23:29.027Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-07-16T10:23:29.035Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-07-16T10:23:29.035Z] > authorizing via signed-in user (tanmaypani357@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\TANMAY\Desktop\E-commerce-Website\e-commerce
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-07-16T10:24:00.606Z] > refreshing access token with scopes: []
+[debug] [2023-07-16T10:24:00.607Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2023-07-16T10:24:00.607Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-07-16T10:24:01.296Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2023-07-16T10:24:01.296Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-07-16T10:24:01.305Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2023-07-16T10:24:02.674Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2023-07-16T10:24:02.674Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project e-commerce-2dcc6 (E-commerce) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2023-07-16T10:25:42.397Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2023-07-16T10:25:42.808Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2023-07-16T10:25:42.808Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"10.0.0","browserURL":"https://www.gstatic.com/firebasejs/10.0.0/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/10.0.0/firebase.tgz"},"live":{"version":"10.0","browserURL":"https://www.gstatic.com/firebasejs/live/10.0/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/10.0/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/10.0.0/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/10.0.0/firebase-app.js","app-check":"https://www.gstatic.com/firebasejs/10.0.0/firebase-app-check.js","auth":"https://www.gstatic.com/firebasejs/10.0.0/firebase-auth.js","auth/cordova":"https://www.gstatic.com/firebasejs/10.0.0/firebase-auth/cordova.js","functions":"https://www.gstatic.com/firebasejs/10.0.0/firebase-functions.js","firestore":"https://www.gstatic.com/firebasejs/10.0.0/firebase-firestore.js","firestore/lite":"https://www.gstatic.com/firebasejs/10.0.0/firebase-firestore/lite.js","installations":"https://www.gstatic.com/firebasejs/10.0.0/firebase-installations.js","storage":"https://www.gstatic.com/firebasejs/10.0.0/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/10.0.0/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/10.0.0/firebase-remote-config.js","messaging":"https://www.gstatic.com/firebasejs/10.0.0/firebase-messaging.js","messaging/sw":"https://www.gstatic.com/firebasejs/10.0.0/firebase-messaging/sw.js","database":"https://www.gstatic.com/firebasejs/10.0.0/firebase-database.js","firestore.memory":"https://www.gstatic.com/firebasejs/10.0.0/firebase-firestore.memory.js"}}
+[info] +  Wrote build/index.html 
+[info] 
+[info] i  Writing configuration info to firebase.json... 
+[info] i  Writing project information to .firebaserc... 
+[info] 
+[info] +  Firebase initialization complete! 
+[debug] [2023-07-16T10:25:52.838Z] Error: Timed out.
+    at Timeout._onTimeout (C:\Users\TANMAY\AppData\Roaming\npm\node_modules\firebase-tools\lib\utils.js:254:49)
+    at listOnTimeout (node:internal/timers:564:17)
+    at process.processTimers (node:internal/timers:507:7)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2023-07-16T10:28:50.390Z] ----------------------------------------------------------------------
+[debug] [2023-07-16T10:28:50.392Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\TANMAY\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2023-07-16T10:28:50.393Z] CLI Version:   12.4.4
+[debug] [2023-07-16T10:28:50.393Z] Platform:      win32
+[debug] [2023-07-16T10:28:50.393Z] Node Version:  v18.12.1
+[debug] [2023-07-16T10:28:50.394Z] Time:          Sun Jul 16 2023 15:58:50 GMT+0530 (India Standard Time)
+[debug] [2023-07-16T10:28:50.394Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-07-16T10:28:50.464Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-07-16T10:28:50.465Z] > authorizing via signed-in user (tanmaypani357@gmail.com)
+[debug] [2023-07-16T10:28:50.465Z] [iam] checking project e-commerce-2dcc6 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2023-07-16T10:28:50.467Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/e-commerce-2dcc6:testIamPermissions [none]
+[debug] [2023-07-16T10:28:50.467Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/e-commerce-2dcc6:testIamPermissions x-goog-quota-user=projects/e-commerce-2dcc6
+[debug] [2023-07-16T10:28:50.468Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/e-commerce-2dcc6:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-07-16T10:28:52.606Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/e-commerce-2dcc6:testIamPermissions 200
+[debug] [2023-07-16T10:28:52.606Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/e-commerce-2dcc6:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-07-16T10:28:52.607Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/e-commerce-2dcc6 [none]
+[debug] [2023-07-16T10:28:53.525Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/e-commerce-2dcc6 200
+[debug] [2023-07-16T10:28:53.525Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/e-commerce-2dcc6 {"projectId":"e-commerce-2dcc6","projectNumber":"760301230332","displayName":"E-commerce","name":"projects/e-commerce-2dcc6","resources":{"hostingSite":"e-commerce-2dcc6"},"state":"ACTIVE","etag":"1_1daea73e-6fd0-4b4e-95bf-b62e61136123"}
+[info] 
+[info] === Deploying to 'e-commerce-2dcc6'...
+[info] 
+[info] i  deploying hosting 
+[debug] [2023-07-16T10:28:53.542Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/e-commerce-2dcc6/versions [none]
+[debug] [2023-07-16T10:28:53.542Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/e-commerce-2dcc6/versions {"status":"CREATED","labels":{"deployment-tool":"cli-firebase"}}
+[debug] [2023-07-16T10:28:55.796Z] <<< [apiv2][status] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/e-commerce-2dcc6/versions 200
+[debug] [2023-07-16T10:28:55.796Z] <<< [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/e-commerce-2dcc6/versions {"name":"projects/760301230332/sites/e-commerce-2dcc6/versions/fb15496efadc3da2","status":"CREATED","config":{},"labels":{"deployment-tool":"cli-firebase"}}
+[info] i  hosting[e-commerce-2dcc6]: beginning deploy... 
+[info] i  hosting[e-commerce-2dcc6]: found 22 files in build 
+[debug] [2023-07-16T10:29:14.701Z] [hosting] uploading with 200 concurrency
+[debug] [2023-07-16T10:29:14.702Z] [hosting] hash cache [YnVpbGQ] not populated
+[debug] [2023-07-16T10:29:15.170Z] [hosting] hash cache [YnVpbGQ] stored for 22 files
+[debug] [2023-07-16T10:29:15.170Z] [hosting][hash queue][FINAL] {"max":459,"min":15,"avg":39.59090909090909,"active":0,"complete":22,"success":22,"errored":0,"retried":0,"total":22,"elapsed":466}
+[debug] [2023-07-16T10:29:15.171Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/projects/760301230332/sites/e-commerce-2dcc6/versions/fb15496efadc3da2:populateFiles [none]
+[debug] [2023-07-16T10:29:15.171Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/760301230332/sites/e-commerce-2dcc6/versions/fb15496efadc3da2:populateFiles {"files":{"/index.html":"4d036218f1a690c0bb1d098ffa995744be4fb7124ddb91a540e6f65e2b9a40b0","/asset-manifest.json":"00ef8da4b026fd97ad00bad47fed78d8d02802fcb0e69c892565617affc87f88","/logo192.png":"3ee59515172ee198f3be375979df15ac5345183e656720a381b8872b2a39dc8b","/favicon.ico":"eae62e993eb980ec8a25058c39d5a51feab118bd2100c4deebb2a9c158ec11f9","/logo512.png":"ee7e2f3fdb8209c4b6fd7bef6ba50d1b9dba30a25bb5c3126df057e1cb6f5331","/manifest.json":"aff3449bdc238776f5d6d967f19ec491b36aed5fb7f23ccff6500736fd58494a","/robots.txt":"bfe106a3fb878dc83461c86818bf74fc1bdc7f28538ba613cd3e775516ce8b49","/static/js/main.61b575e8.js.LICENSE.txt":"38ddf4e80abb85f2c16fb3fac76208b8bf65273f1f83a2265d85ffac35ed2bab","/static/css/main.9ebc805f.css":"eb4afdd28f943687800b2f45c535549d78962103189229108c49f3caed7afbbd","/static/css/main.9ebc805f.css.map":"08d686526e52588def77f393f3adf64f599b7ce3fd232960bb2d1746b41b416c","/static/media/ac.f2bc8b3a88c06b79b4e1.jpg":"e0f6882a382b9eadce848cd8f0f25c49c9cbfffb381b589489bf31e868944984","/static/media/laptop.e6b35f8fbbcefd3072de.jpg":"b6a41a0bbf9edc05137282085aba581ff07243e35ac636e040deda1613e79de0","/static/media/amazonLogoSignin.f6a8e10577a993a648b2.png":"7a98691dfee20a52060ba737b1fa09d00845eaed7f9a36b03b48c54a44bb4f3e","/static/media/amazonAd.b842b1e4bb0cc75ce652.jpg":"f0420498835c3b0e7fa3f1b47038d9d70bae16950ab847180439f0cf62b52d3e","/static/media/washingMachine.65a4d10b5b15a3f8ded2.jpg":"a84eba451059d27bc1a18c81a3e3b22179a4106cd17aae7e8f081bf321059992","/static/media/amazonLogo.c258172cbbfae08cdc8d.png":"3fbc0ec0b0c6ce053845b5f977c0bcd09a2fbaf36e6a44042f7557d0fa1e07e3","/static/media/cooler.8416bfac7eaf40ee2cae.jpg":"dd5a869fc82181d6842d8b5b2981e79de04aa53e29499f6bbc14a1ad973763ad","/static/media/bgImg.37e38a1c83060cf8ec40.jpg":"4cc768305c5feebeee23a12c3b45af7ae5e50c7439211aca0b3d8f0b1620a9d9","/static/media/sonytv.a76bd07181e7b5831ba0.png":"3c1e9c0a377fc9ae1f8e0e8010a22cb5d16094486e99006cf2da238a020da74a","/static/media/iphone14.aa98e771b044d50b3ab4.jpg":"1a5f0e72f71040d0d2b45922016cd9b1241fe6fd8ee7285adf0f6b17453b37ec","/static/js/main.61b575e8.js":"904fe718f298fbd13938d499bbbf316e2cdb0412cdc8ff870866805362756f0a","/static/js/main.61b575e8.js.map":"7f0152124b06582b614177a7b8fbc29215581fcddcc2b481ba2c6ef8832b3e5e"}}
+[debug] [2023-07-16T10:29:16.594Z] <<< [apiv2][status] POST https://firebasehosting.googleapis.com/v1beta1/projects/760301230332/sites/e-commerce-2dcc6/versions/fb15496efadc3da2:populateFiles 200
+[debug] [2023-07-16T10:29:16.594Z] <<< [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/760301230332/sites/e-commerce-2dcc6/versions/fb15496efadc3da2:populateFiles {"uploadRequiredHashes":["3fbc0ec0b0c6ce053845b5f977c0bcd09a2fbaf36e6a44042f7557d0fa1e07e3","ee7e2f3fdb8209c4b6fd7bef6ba50d1b9dba30a25bb5c3126df057e1cb6f5331","f0420498835c3b0e7fa3f1b47038d9d70bae16950ab847180439f0cf62b52d3e","08d686526e52588def77f393f3adf64f599b7ce3fd232960bb2d1746b41b416c","7a98691dfee20a52060ba737b1fa09d00845eaed7f9a36b03b48c54a44bb4f3e","4d036218f1a690c0bb1d098ffa995744be4fb7124ddb91a540e6f65e2b9a40b0","aff3449bdc238776f5d6d967f19ec491b36aed5fb7f23ccff6500736fd58494a","7f0152124b06582b614177a7b8fbc29215581fcddcc2b481ba2c6ef8832b3e5e","4cc768305c5feebeee23a12c3b45af7ae5e50c7439211aca0b3d8f0b1620a9d9","00ef8da4b026fd97ad00bad47fed78d8d02802fcb0e69c892565617affc87f88","eb4afdd28f943687800b2f45c535549d78962103189229108c49f3caed7afbbd","904fe718f298fbd13938d499bbbf316e2cdb0412cdc8ff870866805362756f0a","3ee59515172ee198f3be375979df15ac5345183e656720a381b8872b2a39dc8b","b6a41a0bbf9edc05137282085aba581ff07243e35ac636e040deda1613e79de0","e0f6882a382b9eadce848cd8f0f25c49c9cbfffb381b589489bf31e868944984","a84eba451059d27bc1a18c81a3e3b22179a4106cd17aae7e8f081bf321059992","38ddf4e80abb85f2c16fb3fac76208b8bf65273f1f83a2265d85ffac35ed2bab","eae62e993eb980ec8a25058c39d5a51feab118bd2100c4deebb2a9c158ec11f9","bfe106a3fb878dc83461c86818bf74fc1bdc7f28538ba613cd3e775516ce8b49","3c1e9c0a377fc9ae1f8e0e8010a22cb5d16094486e99006cf2da238a020da74a","1a5f0e72f71040d0d2b45922016cd9b1241fe6fd8ee7285adf0f6b17453b37ec","dd5a869fc82181d6842d8b5b2981e79de04aa53e29499f6bbc14a1ad973763ad"],"uploadUrl":"https://upload-firebasehosting.googleapis.com/upload/sites/e-commerce-2dcc6/versions/fb15496efadc3da2/files"}
+[debug] [2023-07-16T10:29:16.598Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/e-commerce-2dcc6/versions/fb15496efadc3da2/files/3fbc0ec0b0c6ce053845b5f977c0bcd09a2fbaf36e6a44042f7557d0fa1e07e3 [none]
+[debug] [2023-07-16T10:29:16.598Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/e-commerce-2dcc6/versions/fb15496efadc3da2/files/3fbc0ec0b0c6ce053845b5f977c0bcd09a2fbaf36e6a44042f7557d0fa1e07e3 [stream]
+[debug] [2023-07-16T10:29:16.599Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/e-commerce-2dcc6/versions/fb15496efadc3da2/files/ee7e2f3fdb8209c4b6fd7bef6ba50d1b9dba30a25bb5c3126df057e1cb6f5331 [none]
+[debug] [2023-07-16T10:29:16.599Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/e-commerce-2dcc6/versions/fb15496efadc3da2/files/ee7e2f3fdb8209c4b6fd7bef6ba50d1b9dba30a25bb5c3126df057e1cb6f5331 [stream]
+[debug] [2023-07-16T10:29:16.601Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/e-commerce-2dcc6/versions/fb15496efadc3da2/files/f0420498835c3b0e7fa3f1b47038d9d70bae16950ab847180439f0cf62b52d3e [none]
+[debug] [2023-07-16T10:29:16.601Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/e-commerce-2dcc6/versions/fb15496efadc3da2/files/f0420498835c3b0e7fa3f1b47038d9d70bae16950ab847180439f0cf62b52d3e [stream]
+[debug] [2023-07-16T10:29:16.602Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/e-commerce-2dcc6/versions/fb15496efadc3da2/files/08d686526e52588def77f393f3adf64f599b7ce3fd232960bb2d1746b41b416c [none]
+[debug] [2023-07-16T10:29:16.602Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/e-commerce-2dcc6/versions/fb15496efadc3da2/files/08d686526e52588def77f393f3adf64f599b7ce3fd232960bb2d1746b41b416c [stream]
+[debug] [2023-07-16T10:29:16.603Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/e-commerce-2dcc6/versions/fb15496efadc3da2/files/7a98691dfee20a52060ba737b1fa09d00845eaed7f9a36b03b48c54a44bb4f3e [none]
+[debug] [2023-07-16T10:29:16.603Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/e-commerce-2dcc6/versions/fb15496efadc3da2/files/7a98691dfee20a52060ba737b1fa09d00845eaed7f9a36b03b48c54a44bb4f3e [stream]
+[debug] [2023-07-16T10:29:16.606Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/e-commerce-2dcc6/versions/fb15496efadc3da2/files/4d036218f1a690c0bb1d098ffa995744be4fb7124ddb91a540e6f65e2b9a40b0 [none]
+[debug] [2023-07-16T10:29:16.606Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/e-commerce-2dcc6/versions/fb15496efadc3da2/files/4d036218f1a690c0bb1d098ffa995744be4fb7124ddb91a540e6f65e2b9a40b0 [stream]
+[debug] [2023-07-16T10:29:16.608Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/e-commerce-2dcc6/versions/fb15496efadc3da2/files/aff3449bdc238776f5d6d967f19ec491b36aed5fb7f23ccff6500736fd58494a [none]
+[debug] [2023-07-16T10:29:16.608Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/e-commerce-2dcc6/versions/fb15496efadc3da2/files/aff3449bdc238776f5d6d967f19ec491b36aed5fb7f23ccff6500736fd58494a [stream]
+[debug] [2023-07-16T10:29:16.610Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/e-commerce-2dcc6/versions/fb15496efadc3da2/files/7f0152124b06582b614177a7b8fbc29215581fcddcc2b481ba2c6ef8832b3e5e [none]
+[debug] [2023-07-16T10:29:16.610Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/e-commerce-2dcc6/versions/fb15496efadc3da2/files/7f0152124b06582b614177a7b8fbc29215581fcddcc2b481ba2c6ef8832b3e5e [stream]
+[debug] [2023-07-16T10:29:16.611Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/e-commerce-2dcc6/versions/fb15496efadc3da2/files/4cc768305c5feebeee23a12c3b45af7ae5e50c7439211aca0b3d8f0b1620a9d9 [none]
+[debug] [2023-07-16T10:29:16.611Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/e-commerce-2dcc6/versions/fb15496efadc3da2/files/4cc768305c5feebeee23a12c3b45af7ae5e50c7439211aca0b3d8f0b1620a9d9 [stream]
+[debug] [2023-07-16T10:29:16.612Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/e-commerce-2dcc6/versions/fb15496efadc3da2/files/00ef8da4b026fd97ad00bad47fed78d8d02802fcb0e69c892565617affc87f88 [none]
+[debug] [2023-07-16T10:29:16.612Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/e-commerce-2dcc6/versions/fb15496efadc3da2/files/00ef8da4b026fd97ad00bad47fed78d8d02802fcb0e69c892565617affc87f88 [stream]
+[debug] [2023-07-16T10:29:16.614Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/e-commerce-2dcc6/versions/fb15496efadc3da2/files/eb4afdd28f943687800b2f45c535549d78962103189229108c49f3caed7afbbd [none]
+[debug] [2023-07-16T10:29:16.614Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/e-commerce-2dcc6/versions/fb15496efadc3da2/files/eb4afdd28f943687800b2f45c535549d78962103189229108c49f3caed7afbbd [stream]
+[debug] [2023-07-16T10:29:16.615Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/e-commerce-2dcc6/versions/fb15496efadc3da2/files/904fe718f298fbd13938d499bbbf316e2cdb0412cdc8ff870866805362756f0a [none]
+[debug] [2023-07-16T10:29:16.615Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/e-commerce-2dcc6/versions/fb15496efadc3da2/files/904fe718f298fbd13938d499bbbf316e2cdb0412cdc8ff870866805362756f0a [stream]
+[debug] [2023-07-16T10:29:16.618Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/e-commerce-2dcc6/versions/fb15496efadc3da2/files/3ee59515172ee198f3be375979df15ac5345183e656720a381b8872b2a39dc8b [none]
+[debug] [2023-07-16T10:29:16.618Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/e-commerce-2dcc6/versions/fb15496efadc3da2/files/3ee59515172ee198f3be375979df15ac5345183e656720a381b8872b2a39dc8b [stream]
+[debug] [2023-07-16T10:29:16.619Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/e-commerce-2dcc6/versions/fb15496efadc3da2/files/b6a41a0bbf9edc05137282085aba581ff07243e35ac636e040deda1613e79de0 [none]
+[debug] [2023-07-16T10:29:16.620Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/e-commerce-2dcc6/versions/fb15496efadc3da2/files/b6a41a0bbf9edc05137282085aba581ff07243e35ac636e040deda1613e79de0 [stream]
+[debug] [2023-07-16T10:29:16.621Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/e-commerce-2dcc6/versions/fb15496efadc3da2/files/e0f6882a382b9eadce848cd8f0f25c49c9cbfffb381b589489bf31e868944984 [none]
+[debug] [2023-07-16T10:29:16.621Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/e-commerce-2dcc6/versions/fb15496efadc3da2/files/e0f6882a382b9eadce848cd8f0f25c49c9cbfffb381b589489bf31e868944984 [stream]
+[debug] [2023-07-16T10:29:16.622Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/e-commerce-2dcc6/versions/fb15496efadc3da2/files/a84eba451059d27bc1a18c81a3e3b22179a4106cd17aae7e8f081bf321059992 [none]
+[debug] [2023-07-16T10:29:16.623Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/e-commerce-2dcc6/versions/fb15496efadc3da2/files/a84eba451059d27bc1a18c81a3e3b22179a4106cd17aae7e8f081bf321059992 [stream]
+[debug] [2023-07-16T10:29:16.624Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/e-commerce-2dcc6/versions/fb15496efadc3da2/files/38ddf4e80abb85f2c16fb3fac76208b8bf65273f1f83a2265d85ffac35ed2bab [none]
+[debug] [2023-07-16T10:29:16.624Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/e-commerce-2dcc6/versions/fb15496efadc3da2/files/38ddf4e80abb85f2c16fb3fac76208b8bf65273f1f83a2265d85ffac35ed2bab [stream]
+[debug] [2023-07-16T10:29:16.625Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/e-commerce-2dcc6/versions/fb15496efadc3da2/files/eae62e993eb980ec8a25058c39d5a51feab118bd2100c4deebb2a9c158ec11f9 [none]
+[debug] [2023-07-16T10:29:16.625Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/e-commerce-2dcc6/versions/fb15496efadc3da2/files/eae62e993eb980ec8a25058c39d5a51feab118bd2100c4deebb2a9c158ec11f9 [stream]
+[debug] [2023-07-16T10:29:16.626Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/e-commerce-2dcc6/versions/fb15496efadc3da2/files/bfe106a3fb878dc83461c86818bf74fc1bdc7f28538ba613cd3e775516ce8b49 [none]
+[debug] [2023-07-16T10:29:16.626Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/e-commerce-2dcc6/versions/fb15496efadc3da2/files/bfe106a3fb878dc83461c86818bf74fc1bdc7f28538ba613cd3e775516ce8b49 [stream]
+[debug] [2023-07-16T10:29:16.627Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/e-commerce-2dcc6/versions/fb15496efadc3da2/files/3c1e9c0a377fc9ae1f8e0e8010a22cb5d16094486e99006cf2da238a020da74a [none]
+[debug] [2023-07-16T10:29:16.627Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/e-commerce-2dcc6/versions/fb15496efadc3da2/files/3c1e9c0a377fc9ae1f8e0e8010a22cb5d16094486e99006cf2da238a020da74a [stream]
+[debug] [2023-07-16T10:29:16.628Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/e-commerce-2dcc6/versions/fb15496efadc3da2/files/1a5f0e72f71040d0d2b45922016cd9b1241fe6fd8ee7285adf0f6b17453b37ec [none]
+[debug] [2023-07-16T10:29:16.628Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/e-commerce-2dcc6/versions/fb15496efadc3da2/files/1a5f0e72f71040d0d2b45922016cd9b1241fe6fd8ee7285adf0f6b17453b37ec [stream]
+[debug] [2023-07-16T10:29:16.628Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/e-commerce-2dcc6/versions/fb15496efadc3da2/files/dd5a869fc82181d6842d8b5b2981e79de04aa53e29499f6bbc14a1ad973763ad [none]
+[debug] [2023-07-16T10:29:16.628Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/e-commerce-2dcc6/versions/fb15496efadc3da2/files/dd5a869fc82181d6842d8b5b2981e79de04aa53e29499f6bbc14a1ad973763ad [stream]
+[debug] [2023-07-16T10:29:16.629Z] [hosting][populate queue][FINAL] {"max":1429,"min":1429,"avg":1429,"active":0,"complete":1,"success":1,"errored":0,"retried":0,"total":1,"elapsed":1461}
+[debug] [2023-07-16T10:29:16.629Z] [hosting] uploads queued: 22
+[debug] [2023-07-16T10:29:18.269Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/e-commerce-2dcc6/versions/fb15496efadc3da2/files/3ee59515172ee198f3be375979df15ac5345183e656720a381b8872b2a39dc8b 200
+[debug] [2023-07-16T10:29:18.269Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/e-commerce-2dcc6/versions/fb15496efadc3da2/files/3ee59515172ee198f3be375979df15ac5345183e656720a381b8872b2a39dc8b [stream]
+[debug] [2023-07-16T10:29:18.563Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/e-commerce-2dcc6/versions/fb15496efadc3da2/files/eb4afdd28f943687800b2f45c535549d78962103189229108c49f3caed7afbbd 200
+[debug] [2023-07-16T10:29:18.563Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/e-commerce-2dcc6/versions/fb15496efadc3da2/files/eb4afdd28f943687800b2f45c535549d78962103189229108c49f3caed7afbbd [stream]
+[debug] [2023-07-16T10:29:18.622Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/e-commerce-2dcc6/versions/fb15496efadc3da2/files/38ddf4e80abb85f2c16fb3fac76208b8bf65273f1f83a2265d85ffac35ed2bab 200
+[debug] [2023-07-16T10:29:18.622Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/e-commerce-2dcc6/versions/fb15496efadc3da2/files/38ddf4e80abb85f2c16fb3fac76208b8bf65273f1f83a2265d85ffac35ed2bab [stream]
+[debug] [2023-07-16T10:29:18.710Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/e-commerce-2dcc6/versions/fb15496efadc3da2/files/e0f6882a382b9eadce848cd8f0f25c49c9cbfffb381b589489bf31e868944984 200
+[debug] [2023-07-16T10:29:18.710Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/e-commerce-2dcc6/versions/fb15496efadc3da2/files/e0f6882a382b9eadce848cd8f0f25c49c9cbfffb381b589489bf31e868944984 [stream]
+[debug] [2023-07-16T10:29:18.766Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/e-commerce-2dcc6/versions/fb15496efadc3da2/files/bfe106a3fb878dc83461c86818bf74fc1bdc7f28538ba613cd3e775516ce8b49 200
+[debug] [2023-07-16T10:29:18.766Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/e-commerce-2dcc6/versions/fb15496efadc3da2/files/bfe106a3fb878dc83461c86818bf74fc1bdc7f28538ba613cd3e775516ce8b49 [stream]
+[debug] [2023-07-16T10:29:18.793Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/e-commerce-2dcc6/versions/fb15496efadc3da2/files/7a98691dfee20a52060ba737b1fa09d00845eaed7f9a36b03b48c54a44bb4f3e 200
+[debug] [2023-07-16T10:29:18.793Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/e-commerce-2dcc6/versions/fb15496efadc3da2/files/7a98691dfee20a52060ba737b1fa09d00845eaed7f9a36b03b48c54a44bb4f3e [stream]
+[debug] [2023-07-16T10:29:18.815Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/e-commerce-2dcc6/versions/fb15496efadc3da2/files/ee7e2f3fdb8209c4b6fd7bef6ba50d1b9dba30a25bb5c3126df057e1cb6f5331 200
+[debug] [2023-07-16T10:29:18.815Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/e-commerce-2dcc6/versions/fb15496efadc3da2/files/ee7e2f3fdb8209c4b6fd7bef6ba50d1b9dba30a25bb5c3126df057e1cb6f5331 [stream]
+[debug] [2023-07-16T10:29:18.821Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/e-commerce-2dcc6/versions/fb15496efadc3da2/files/a84eba451059d27bc1a18c81a3e3b22179a4106cd17aae7e8f081bf321059992 200
+[debug] [2023-07-16T10:29:18.822Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/e-commerce-2dcc6/versions/fb15496efadc3da2/files/a84eba451059d27bc1a18c81a3e3b22179a4106cd17aae7e8f081bf321059992 [stream]
+[debug] [2023-07-16T10:29:18.865Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/e-commerce-2dcc6/versions/fb15496efadc3da2/files/eae62e993eb980ec8a25058c39d5a51feab118bd2100c4deebb2a9c158ec11f9 200
+[debug] [2023-07-16T10:29:18.865Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/e-commerce-2dcc6/versions/fb15496efadc3da2/files/eae62e993eb980ec8a25058c39d5a51feab118bd2100c4deebb2a9c158ec11f9 [stream]
+[debug] [2023-07-16T10:29:18.960Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/e-commerce-2dcc6/versions/fb15496efadc3da2/files/3fbc0ec0b0c6ce053845b5f977c0bcd09a2fbaf36e6a44042f7557d0fa1e07e3 200
+[debug] [2023-07-16T10:29:18.960Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/e-commerce-2dcc6/versions/fb15496efadc3da2/files/3fbc0ec0b0c6ce053845b5f977c0bcd09a2fbaf36e6a44042f7557d0fa1e07e3 [stream]
+[debug] [2023-07-16T10:29:19.091Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/e-commerce-2dcc6/versions/fb15496efadc3da2/files/f0420498835c3b0e7fa3f1b47038d9d70bae16950ab847180439f0cf62b52d3e 200
+[debug] [2023-07-16T10:29:19.092Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/e-commerce-2dcc6/versions/fb15496efadc3da2/files/f0420498835c3b0e7fa3f1b47038d9d70bae16950ab847180439f0cf62b52d3e [stream]
+[debug] [2023-07-16T10:29:19.147Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/e-commerce-2dcc6/versions/fb15496efadc3da2/files/aff3449bdc238776f5d6d967f19ec491b36aed5fb7f23ccff6500736fd58494a 200
+[debug] [2023-07-16T10:29:19.147Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/e-commerce-2dcc6/versions/fb15496efadc3da2/files/aff3449bdc238776f5d6d967f19ec491b36aed5fb7f23ccff6500736fd58494a [stream]
+[debug] [2023-07-16T10:29:19.182Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/e-commerce-2dcc6/versions/fb15496efadc3da2/files/b6a41a0bbf9edc05137282085aba581ff07243e35ac636e040deda1613e79de0 200
+[debug] [2023-07-16T10:29:19.182Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/e-commerce-2dcc6/versions/fb15496efadc3da2/files/b6a41a0bbf9edc05137282085aba581ff07243e35ac636e040deda1613e79de0 [stream]
+[debug] [2023-07-16T10:29:19.232Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/e-commerce-2dcc6/versions/fb15496efadc3da2/files/08d686526e52588def77f393f3adf64f599b7ce3fd232960bb2d1746b41b416c 200
+[debug] [2023-07-16T10:29:19.232Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/e-commerce-2dcc6/versions/fb15496efadc3da2/files/08d686526e52588def77f393f3adf64f599b7ce3fd232960bb2d1746b41b416c [stream]
+[debug] [2023-07-16T10:29:19.370Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/e-commerce-2dcc6/versions/fb15496efadc3da2/files/dd5a869fc82181d6842d8b5b2981e79de04aa53e29499f6bbc14a1ad973763ad 200
+[debug] [2023-07-16T10:29:19.371Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/e-commerce-2dcc6/versions/fb15496efadc3da2/files/dd5a869fc82181d6842d8b5b2981e79de04aa53e29499f6bbc14a1ad973763ad [stream]
+[debug] [2023-07-16T10:29:19.684Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/e-commerce-2dcc6/versions/fb15496efadc3da2/files/1a5f0e72f71040d0d2b45922016cd9b1241fe6fd8ee7285adf0f6b17453b37ec 200
+[debug] [2023-07-16T10:29:19.684Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/e-commerce-2dcc6/versions/fb15496efadc3da2/files/1a5f0e72f71040d0d2b45922016cd9b1241fe6fd8ee7285adf0f6b17453b37ec [stream]
+[debug] [2023-07-16T10:29:19.824Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/e-commerce-2dcc6/versions/fb15496efadc3da2/files/00ef8da4b026fd97ad00bad47fed78d8d02802fcb0e69c892565617affc87f88 200
+[debug] [2023-07-16T10:29:19.824Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/e-commerce-2dcc6/versions/fb15496efadc3da2/files/00ef8da4b026fd97ad00bad47fed78d8d02802fcb0e69c892565617affc87f88 [stream]
+[debug] [2023-07-16T10:29:19.835Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/e-commerce-2dcc6/versions/fb15496efadc3da2/files/3c1e9c0a377fc9ae1f8e0e8010a22cb5d16094486e99006cf2da238a020da74a 200
+[debug] [2023-07-16T10:29:19.836Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/e-commerce-2dcc6/versions/fb15496efadc3da2/files/3c1e9c0a377fc9ae1f8e0e8010a22cb5d16094486e99006cf2da238a020da74a [stream]
+[debug] [2023-07-16T10:29:19.883Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/e-commerce-2dcc6/versions/fb15496efadc3da2/files/4d036218f1a690c0bb1d098ffa995744be4fb7124ddb91a540e6f65e2b9a40b0 200
+[debug] [2023-07-16T10:29:19.883Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/e-commerce-2dcc6/versions/fb15496efadc3da2/files/4d036218f1a690c0bb1d098ffa995744be4fb7124ddb91a540e6f65e2b9a40b0 [stream]
+[debug] [2023-07-16T10:29:19.973Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/e-commerce-2dcc6/versions/fb15496efadc3da2/files/4cc768305c5feebeee23a12c3b45af7ae5e50c7439211aca0b3d8f0b1620a9d9 200
+[debug] [2023-07-16T10:29:19.973Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/e-commerce-2dcc6/versions/fb15496efadc3da2/files/4cc768305c5feebeee23a12c3b45af7ae5e50c7439211aca0b3d8f0b1620a9d9 [stream]
+[debug] [2023-07-16T10:29:20.296Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/e-commerce-2dcc6/versions/fb15496efadc3da2/files/904fe718f298fbd13938d499bbbf316e2cdb0412cdc8ff870866805362756f0a 200
+[debug] [2023-07-16T10:29:20.297Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/e-commerce-2dcc6/versions/fb15496efadc3da2/files/904fe718f298fbd13938d499bbbf316e2cdb0412cdc8ff870866805362756f0a [stream]
+[debug] [2023-07-16T10:29:22.036Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/e-commerce-2dcc6/versions/fb15496efadc3da2/files/7f0152124b06582b614177a7b8fbc29215581fcddcc2b481ba2c6ef8832b3e5e 200
+[debug] [2023-07-16T10:29:22.036Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/e-commerce-2dcc6/versions/fb15496efadc3da2/files/7f0152124b06582b614177a7b8fbc29215581fcddcc2b481ba2c6ef8832b3e5e [stream]
+[debug] [2023-07-16T10:29:22.036Z] [hosting][upload queue][FINAL] {"max":5441,"min":1673,"avg":2711.136363636364,"active":0,"complete":22,"success":22,"errored":0,"retried":0,"total":22,"elapsed":5442}
+[info] +  hosting[e-commerce-2dcc6]: file upload complete 
+[debug] [2023-07-16T10:29:22.039Z] [hosting] deploy completed after 7352ms
+[debug] [2023-07-16T10:29:22.040Z] [
+  {
+    "config": {
+      "public": "build",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ],
+      "site": "e-commerce-2dcc6"
+    },
+    "version": "projects/760301230332/sites/e-commerce-2dcc6/versions/fb15496efadc3da2"
+  }
+]
+[info] i  hosting[e-commerce-2dcc6]: finalizing version... 
+[debug] [2023-07-16T10:29:22.046Z] >>> [apiv2][query] PATCH https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/e-commerce-2dcc6/versions/fb15496efadc3da2 updateMask=status%2Cconfig
+[debug] [2023-07-16T10:29:22.046Z] >>> [apiv2][body] PATCH https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/e-commerce-2dcc6/versions/fb15496efadc3da2 {"status":"FINALIZED","config":{"rewrites":[{"glob":"**","path":"/index.html"}]}}
+[debug] [2023-07-16T10:29:23.470Z] <<< [apiv2][status] PATCH https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/e-commerce-2dcc6/versions/fb15496efadc3da2 200
+[debug] [2023-07-16T10:29:23.470Z] <<< [apiv2][body] PATCH https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/e-commerce-2dcc6/versions/fb15496efadc3da2 {"name":"projects/760301230332/sites/e-commerce-2dcc6/versions/fb15496efadc3da2","status":"FINALIZED","config":{"rewrites":[{"glob":"**","path":"/index.html"}]},"labels":{"deployment-tool":"cli-firebase"},"createTime":"2023-07-16T10:28:54.438003Z","createUser":{"email":"tanmaypani357@gmail.com"},"finalizeTime":"2023-07-16T10:29:22.789195Z","finalizeUser":{"email":"tanmaypani357@gmail.com"}}
+[debug] [2023-07-16T10:29:23.470Z] [hosting] finalized version for e-commerce-2dcc6:[object Object]
+[info] +  hosting[e-commerce-2dcc6]: version finalized 
+[info] i  hosting[e-commerce-2dcc6]: releasing new version... 
+[debug] [2023-07-16T10:29:23.472Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/e-commerce-2dcc6/channels/live/releases versionName=projects%2F760301230332%2Fsites%2Fe-commerce-2dcc6%2Fversions%2Ffb15496efadc3da2
+[debug] [2023-07-16T10:29:23.472Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/e-commerce-2dcc6/channels/live/releases {}
+[debug] [2023-07-16T10:29:24.909Z] <<< [apiv2][status] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/e-commerce-2dcc6/channels/live/releases 200
+[debug] [2023-07-16T10:29:24.910Z] <<< [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/e-commerce-2dcc6/channels/live/releases {"name":"projects/760301230332/sites/e-commerce-2dcc6/channels/live/releases/1689503363616000","version":{"name":"projects/760301230332/sites/e-commerce-2dcc6/versions/fb15496efadc3da2","status":"FINALIZED","config":{"rewrites":[{"glob":"**","path":"/index.html"}]},"labels":{"deployment-tool":"cli-firebase"},"createTime":"2023-07-16T10:28:54.438003Z","createUser":{"email":"tanmaypani357@gmail.com","imageUrl":"https://lh3.googleusercontent.com/a/AAcHTteb1Z1qJ0jkZ_waB0e6q4bc5Nc7NZaI50Vs3lXu_ghT=mo"},"finalizeTime":"2023-07-16T10:29:22.789195Z","finalizeUser":{"email":"tanmaypani357@gmail.com","imageUrl":"https://lh3.googleusercontent.com/a/AAcHTteb1Z1qJ0jkZ_waB0e6q4bc5Nc7NZaI50Vs3lXu_ghT=mo"}},"type":"DEPLOY","releaseTime":"2023-07-16T10:29:23.616Z","releaseUser":{"email":"tanmaypani357@gmail.com","imageUrl":"https://lh3.googleusercontent.com/a/AAcHTteb1Z1qJ0jkZ_waB0e6q4bc5Nc7NZaI50Vs3lXu_ghT=mo"}}
+[debug] [2023-07-16T10:29:24.910Z] [hosting] release: {"name":"projects/760301230332/sites/e-commerce-2dcc6/channels/live/releases/1689503363616000","version":{"name":"projects/760301230332/sites/e-commerce-2dcc6/versions/fb15496efadc3da2","status":"FINALIZED","config":{"rewrites":[{"glob":"**","path":"/index.html"}]},"labels":{"deployment-tool":"cli-firebase"},"createTime":"2023-07-16T10:28:54.438003Z","createUser":{"email":"tanmaypani357@gmail.com","imageUrl":"https://lh3.googleusercontent.com/a/AAcHTteb1Z1qJ0jkZ_waB0e6q4bc5Nc7NZaI50Vs3lXu_ghT=mo"},"finalizeTime":"2023-07-16T10:29:22.789195Z","finalizeUser":{"email":"tanmaypani357@gmail.com","imageUrl":"https://lh3.googleusercontent.com/a/AAcHTteb1Z1qJ0jkZ_waB0e6q4bc5Nc7NZaI50Vs3lXu_ghT=mo"}},"type":"DEPLOY","releaseTime":"2023-07-16T10:29:23.616Z","releaseUser":{"email":"tanmaypani357@gmail.com","imageUrl":"https://lh3.googleusercontent.com/a/AAcHTteb1Z1qJ0jkZ_waB0e6q4bc5Nc7NZaI50Vs3lXu_ghT=mo"}}
+[info] +  hosting[e-commerce-2dcc6]: release complete 
+[info] 
+[info] +  Deploy complete! 
+[info] 
+[info] Project Console: https://console.firebase.google.com/project/e-commerce-2dcc6/overview
+[info] Hosting URL: https://e-commerce-2dcc6.web.app
+[debug] [2023-07-16T10:29:55.988Z] Error: Timed out.
+    at Timeout._onTimeout (C:\Users\TANMAY\AppData\Roaming\npm\node_modules\firebase-tools\lib\utils.js:254:49)
+    at listOnTimeout (node:internal/timers:564:17)
+    at process.processTimers (node:internal/timers:507:7)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2023-07-16T10:45:47.297Z] ----------------------------------------------------------------------
+[debug] [2023-07-16T10:45:47.298Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\TANMAY\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2023-07-16T10:45:47.299Z] CLI Version:   12.4.4
+[debug] [2023-07-16T10:45:47.299Z] Platform:      win32
+[debug] [2023-07-16T10:45:47.299Z] Node Version:  v18.12.1
+[debug] [2023-07-16T10:45:47.300Z] Time:          Sun Jul 16 2023 16:15:47 GMT+0530 (India Standard Time)
+[debug] [2023-07-16T10:45:47.300Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-07-16T10:45:47.388Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-07-16T10:45:47.389Z] > authorizing via signed-in user (tanmaypani357@gmail.com)
+[debug] [2023-07-16T10:45:47.389Z] [iam] checking project e-commerce-2dcc6 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2023-07-16T10:45:47.391Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/e-commerce-2dcc6:testIamPermissions [none]
+[debug] [2023-07-16T10:45:47.392Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/e-commerce-2dcc6:testIamPermissions x-goog-quota-user=projects/e-commerce-2dcc6
+[debug] [2023-07-16T10:45:47.392Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/e-commerce-2dcc6:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-07-16T10:45:49.519Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/e-commerce-2dcc6:testIamPermissions 200
+[debug] [2023-07-16T10:45:49.519Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/e-commerce-2dcc6:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-07-16T10:45:49.520Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/e-commerce-2dcc6 [none]
+[debug] [2023-07-16T10:45:50.486Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/e-commerce-2dcc6 200
+[debug] [2023-07-16T10:45:50.486Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/e-commerce-2dcc6 {"projectId":"e-commerce-2dcc6","projectNumber":"760301230332","displayName":"E-commerce","name":"projects/e-commerce-2dcc6","resources":{"hostingSite":"e-commerce-2dcc6"},"state":"ACTIVE","etag":"1_1488bffd-0cc2-400d-a371-8b9ab54f6a3f"}
+[info] 
+[info] === Deploying to 'e-commerce-2dcc6'...
+[info] 
+[info] i  deploying hosting 
+[debug] [2023-07-16T10:45:50.505Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/e-commerce-2dcc6/versions [none]
+[debug] [2023-07-16T10:45:50.505Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/e-commerce-2dcc6/versions {"status":"CREATED","labels":{"deployment-tool":"cli-firebase"}}
+[debug] [2023-07-16T10:45:52.384Z] <<< [apiv2][status] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/e-commerce-2dcc6/versions 200
+[debug] [2023-07-16T10:45:52.384Z] <<< [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/e-commerce-2dcc6/versions {"name":"projects/760301230332/sites/e-commerce-2dcc6/versions/f6a9c7b29ed327a9","status":"CREATED","config":{},"labels":{"deployment-tool":"cli-firebase"}}
+[info] i  hosting[e-commerce-2dcc6]: beginning deploy... 
+[info] i  hosting[e-commerce-2dcc6]: found 22 files in build 
+[debug] [2023-07-16T10:46:11.684Z] [hosting] uploading with 200 concurrency
+[debug] [2023-07-16T10:46:12.164Z] [hosting] hash cache [YnVpbGQ] stored for 22 files
+[debug] [2023-07-16T10:46:12.165Z] [hosting][hash queue][FINAL] {"max":460,"min":4,"avg":37.13636363636363,"active":0,"complete":22,"success":22,"errored":0,"retried":0,"total":22,"elapsed":467}
+[debug] [2023-07-16T10:46:12.165Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/projects/760301230332/sites/e-commerce-2dcc6/versions/f6a9c7b29ed327a9:populateFiles [none]
+[debug] [2023-07-16T10:46:12.165Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/760301230332/sites/e-commerce-2dcc6/versions/f6a9c7b29ed327a9:populateFiles {"files":{"/favicon.ico":"eae62e993eb980ec8a25058c39d5a51feab118bd2100c4deebb2a9c158ec11f9","/logo192.png":"3ee59515172ee198f3be375979df15ac5345183e656720a381b8872b2a39dc8b","/logo512.png":"ee7e2f3fdb8209c4b6fd7bef6ba50d1b9dba30a25bb5c3126df057e1cb6f5331","/manifest.json":"aff3449bdc238776f5d6d967f19ec491b36aed5fb7f23ccff6500736fd58494a","/robots.txt":"bfe106a3fb878dc83461c86818bf74fc1bdc7f28538ba613cd3e775516ce8b49","/index.html":"1f096d93f9ef8c78d69ae65d4b89d4a1cafffaf5904457cb7afed68eaaf388d1","/asset-manifest.json":"77bb2dec24f3f8bd59f6917fcd81330d9d0241ae1d926e9692258bdb112c05bf","/static/css/main.9ebc805f.css":"eb4afdd28f943687800b2f45c535549d78962103189229108c49f3caed7afbbd","/static/js/main.a22fc076.js.LICENSE.txt":"38ddf4e80abb85f2c16fb3fac76208b8bf65273f1f83a2265d85ffac35ed2bab","/static/css/main.9ebc805f.css.map":"08d686526e52588def77f393f3adf64f599b7ce3fd232960bb2d1746b41b416c","/static/media/ac.f2bc8b3a88c06b79b4e1.jpg":"e0f6882a382b9eadce848cd8f0f25c49c9cbfffb381b589489bf31e868944984","/static/media/laptop.e6b35f8fbbcefd3072de.jpg":"b6a41a0bbf9edc05137282085aba581ff07243e35ac636e040deda1613e79de0","/static/media/amazonLogoSignin.f6a8e10577a993a648b2.png":"7a98691dfee20a52060ba737b1fa09d00845eaed7f9a36b03b48c54a44bb4f3e","/static/media/amazonAd.b842b1e4bb0cc75ce652.jpg":"f0420498835c3b0e7fa3f1b47038d9d70bae16950ab847180439f0cf62b52d3e","/static/media/washingMachine.65a4d10b5b15a3f8ded2.jpg":"a84eba451059d27bc1a18c81a3e3b22179a4106cd17aae7e8f081bf321059992","/static/media/amazonLogo.c258172cbbfae08cdc8d.png":"3fbc0ec0b0c6ce053845b5f977c0bcd09a2fbaf36e6a44042f7557d0fa1e07e3","/static/media/cooler.8416bfac7eaf40ee2cae.jpg":"dd5a869fc82181d6842d8b5b2981e79de04aa53e29499f6bbc14a1ad973763ad","/static/media/bgImg.37e38a1c83060cf8ec40.jpg":"4cc768305c5feebeee23a12c3b45af7ae5e50c7439211aca0b3d8f0b1620a9d9","/static/media/sonytv.a76bd07181e7b5831ba0.png":"3c1e9c0a377fc9ae1f8e0e8010a22cb5d16094486e99006cf2da238a020da74a","/static/media/iphone14.aa98e771b044d50b3ab4.jpg":"1a5f0e72f71040d0d2b45922016cd9b1241fe6fd8ee7285adf0f6b17453b37ec","/static/js/main.a22fc076.js":"56170706ac3c7b0d289d64d27365777f892974d7bf5411c1c168dbb4a3c01696","/static/js/main.a22fc076.js.map":"cfb8ac42899961620bc6177dbf2846975f64702d0b729712d06054d22d8e23d0"}}
+[debug] [2023-07-16T10:46:13.592Z] <<< [apiv2][status] POST https://firebasehosting.googleapis.com/v1beta1/projects/760301230332/sites/e-commerce-2dcc6/versions/f6a9c7b29ed327a9:populateFiles 200
+[debug] [2023-07-16T10:46:13.592Z] <<< [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/760301230332/sites/e-commerce-2dcc6/versions/f6a9c7b29ed327a9:populateFiles {"uploadRequiredHashes":["cfb8ac42899961620bc6177dbf2846975f64702d0b729712d06054d22d8e23d0","1f096d93f9ef8c78d69ae65d4b89d4a1cafffaf5904457cb7afed68eaaf388d1","77bb2dec24f3f8bd59f6917fcd81330d9d0241ae1d926e9692258bdb112c05bf","56170706ac3c7b0d289d64d27365777f892974d7bf5411c1c168dbb4a3c01696"],"uploadUrl":"https://upload-firebasehosting.googleapis.com/upload/sites/e-commerce-2dcc6/versions/f6a9c7b29ed327a9/files"}
+[debug] [2023-07-16T10:46:13.593Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/e-commerce-2dcc6/versions/f6a9c7b29ed327a9/files/cfb8ac42899961620bc6177dbf2846975f64702d0b729712d06054d22d8e23d0 [none]
+[debug] [2023-07-16T10:46:13.593Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/e-commerce-2dcc6/versions/f6a9c7b29ed327a9/files/cfb8ac42899961620bc6177dbf2846975f64702d0b729712d06054d22d8e23d0 [stream]
+[debug] [2023-07-16T10:46:13.595Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/e-commerce-2dcc6/versions/f6a9c7b29ed327a9/files/1f096d93f9ef8c78d69ae65d4b89d4a1cafffaf5904457cb7afed68eaaf388d1 [none]
+[debug] [2023-07-16T10:46:13.595Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/e-commerce-2dcc6/versions/f6a9c7b29ed327a9/files/1f096d93f9ef8c78d69ae65d4b89d4a1cafffaf5904457cb7afed68eaaf388d1 [stream]
+[debug] [2023-07-16T10:46:13.596Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/e-commerce-2dcc6/versions/f6a9c7b29ed327a9/files/77bb2dec24f3f8bd59f6917fcd81330d9d0241ae1d926e9692258bdb112c05bf [none]
+[debug] [2023-07-16T10:46:13.597Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/e-commerce-2dcc6/versions/f6a9c7b29ed327a9/files/77bb2dec24f3f8bd59f6917fcd81330d9d0241ae1d926e9692258bdb112c05bf [stream]
+[debug] [2023-07-16T10:46:13.598Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/e-commerce-2dcc6/versions/f6a9c7b29ed327a9/files/56170706ac3c7b0d289d64d27365777f892974d7bf5411c1c168dbb4a3c01696 [none]
+[debug] [2023-07-16T10:46:13.598Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/e-commerce-2dcc6/versions/f6a9c7b29ed327a9/files/56170706ac3c7b0d289d64d27365777f892974d7bf5411c1c168dbb4a3c01696 [stream]
+[debug] [2023-07-16T10:46:13.599Z] [hosting][populate queue][FINAL] {"max":1430,"min":1430,"avg":1430,"active":0,"complete":1,"success":1,"errored":0,"retried":0,"total":1,"elapsed":1436}
+[debug] [2023-07-16T10:46:13.599Z] [hosting] uploads queued: 4
+[debug] [2023-07-16T10:46:16.035Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/e-commerce-2dcc6/versions/f6a9c7b29ed327a9/files/1f096d93f9ef8c78d69ae65d4b89d4a1cafffaf5904457cb7afed68eaaf388d1 200
+[debug] [2023-07-16T10:46:16.035Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/e-commerce-2dcc6/versions/f6a9c7b29ed327a9/files/1f096d93f9ef8c78d69ae65d4b89d4a1cafffaf5904457cb7afed68eaaf388d1 [stream]
+[debug] [2023-07-16T10:46:16.496Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/e-commerce-2dcc6/versions/f6a9c7b29ed327a9/files/77bb2dec24f3f8bd59f6917fcd81330d9d0241ae1d926e9692258bdb112c05bf 200
+[debug] [2023-07-16T10:46:16.497Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/e-commerce-2dcc6/versions/f6a9c7b29ed327a9/files/77bb2dec24f3f8bd59f6917fcd81330d9d0241ae1d926e9692258bdb112c05bf [stream]
+[debug] [2023-07-16T10:46:16.716Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/e-commerce-2dcc6/versions/f6a9c7b29ed327a9/files/56170706ac3c7b0d289d64d27365777f892974d7bf5411c1c168dbb4a3c01696 200
+[debug] [2023-07-16T10:46:16.716Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/e-commerce-2dcc6/versions/f6a9c7b29ed327a9/files/56170706ac3c7b0d289d64d27365777f892974d7bf5411c1c168dbb4a3c01696 [stream]
+[debug] [2023-07-16T10:46:19.671Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/e-commerce-2dcc6/versions/f6a9c7b29ed327a9/files/cfb8ac42899961620bc6177dbf2846975f64702d0b729712d06054d22d8e23d0 200
+[debug] [2023-07-16T10:46:19.672Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/e-commerce-2dcc6/versions/f6a9c7b29ed327a9/files/cfb8ac42899961620bc6177dbf2846975f64702d0b729712d06054d22d8e23d0 [stream]
+[debug] [2023-07-16T10:46:19.672Z] [hosting][upload queue][FINAL] {"max":6080,"min":2443,"avg":3637.5,"active":0,"complete":4,"success":4,"errored":0,"retried":0,"total":4,"elapsed":6080}
+[info] +  hosting[e-commerce-2dcc6]: file upload complete 
+[debug] [2023-07-16T10:46:19.673Z] [hosting] deploy completed after 8004ms
+[debug] [2023-07-16T10:46:19.673Z] [
+  {
+    "config": {
+      "public": "build",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ],
+      "site": "e-commerce-2dcc6"
+    },
+    "version": "projects/760301230332/sites/e-commerce-2dcc6/versions/f6a9c7b29ed327a9"
+  }
+]
+[info] i  hosting[e-commerce-2dcc6]: finalizing version... 
+[debug] [2023-07-16T10:46:19.676Z] >>> [apiv2][query] PATCH https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/e-commerce-2dcc6/versions/f6a9c7b29ed327a9 updateMask=status%2Cconfig
+[debug] [2023-07-16T10:46:19.676Z] >>> [apiv2][body] PATCH https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/e-commerce-2dcc6/versions/f6a9c7b29ed327a9 {"status":"FINALIZED","config":{"rewrites":[{"glob":"**","path":"/index.html"}]}}
+[debug] [2023-07-16T10:46:21.273Z] <<< [apiv2][status] PATCH https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/e-commerce-2dcc6/versions/f6a9c7b29ed327a9 200
+[debug] [2023-07-16T10:46:21.274Z] <<< [apiv2][body] PATCH https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/e-commerce-2dcc6/versions/f6a9c7b29ed327a9 {"name":"projects/760301230332/sites/e-commerce-2dcc6/versions/f6a9c7b29ed327a9","status":"FINALIZED","config":{"rewrites":[{"glob":"**","path":"/index.html"}]},"labels":{"deployment-tool":"cli-firebase"},"createTime":"2023-07-16T10:45:51.372823Z","createUser":{"email":"tanmaypani357@gmail.com"},"finalizeTime":"2023-07-16T10:46:20.358133Z","finalizeUser":{"email":"tanmaypani357@gmail.com"}}
+[debug] [2023-07-16T10:46:21.274Z] [hosting] finalized version for e-commerce-2dcc6:[object Object]
+[info] +  hosting[e-commerce-2dcc6]: version finalized 
+[info] i  hosting[e-commerce-2dcc6]: releasing new version... 
+[debug] [2023-07-16T10:46:21.275Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/e-commerce-2dcc6/channels/live/releases versionName=projects%2F760301230332%2Fsites%2Fe-commerce-2dcc6%2Fversions%2Ff6a9c7b29ed327a9
+[debug] [2023-07-16T10:46:21.275Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/e-commerce-2dcc6/channels/live/releases {}
+[debug] [2023-07-16T10:46:22.877Z] <<< [apiv2][status] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/e-commerce-2dcc6/channels/live/releases 200
+[debug] [2023-07-16T10:46:22.877Z] <<< [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/e-commerce-2dcc6/channels/live/releases {"name":"projects/760301230332/sites/e-commerce-2dcc6/channels/live/releases/1689504381401000","version":{"name":"projects/760301230332/sites/e-commerce-2dcc6/versions/f6a9c7b29ed327a9","status":"FINALIZED","config":{"rewrites":[{"glob":"**","path":"/index.html"}]},"labels":{"deployment-tool":"cli-firebase"},"createTime":"2023-07-16T10:45:51.372823Z","createUser":{"email":"tanmaypani357@gmail.com","imageUrl":"https://lh3.googleusercontent.com/a/AAcHTteb1Z1qJ0jkZ_waB0e6q4bc5Nc7NZaI50Vs3lXu_ghT=mo"},"finalizeTime":"2023-07-16T10:46:20.358133Z","finalizeUser":{"email":"tanmaypani357@gmail.com","imageUrl":"https://lh3.googleusercontent.com/a/AAcHTteb1Z1qJ0jkZ_waB0e6q4bc5Nc7NZaI50Vs3lXu_ghT=mo"}},"type":"DEPLOY","releaseTime":"2023-07-16T10:46:21.401Z","releaseUser":{"email":"tanmaypani357@gmail.com","imageUrl":"https://lh3.googleusercontent.com/a/AAcHTteb1Z1qJ0jkZ_waB0e6q4bc5Nc7NZaI50Vs3lXu_ghT=mo"}}
+[debug] [2023-07-16T10:46:22.877Z] [hosting] release: {"name":"projects/760301230332/sites/e-commerce-2dcc6/channels/live/releases/1689504381401000","version":{"name":"projects/760301230332/sites/e-commerce-2dcc6/versions/f6a9c7b29ed327a9","status":"FINALIZED","config":{"rewrites":[{"glob":"**","path":"/index.html"}]},"labels":{"deployment-tool":"cli-firebase"},"createTime":"2023-07-16T10:45:51.372823Z","createUser":{"email":"tanmaypani357@gmail.com","imageUrl":"https://lh3.googleusercontent.com/a/AAcHTteb1Z1qJ0jkZ_waB0e6q4bc5Nc7NZaI50Vs3lXu_ghT=mo"},"finalizeTime":"2023-07-16T10:46:20.358133Z","finalizeUser":{"email":"tanmaypani357@gmail.com","imageUrl":"https://lh3.googleusercontent.com/a/AAcHTteb1Z1qJ0jkZ_waB0e6q4bc5Nc7NZaI50Vs3lXu_ghT=mo"}},"type":"DEPLOY","releaseTime":"2023-07-16T10:46:21.401Z","releaseUser":{"email":"tanmaypani357@gmail.com","imageUrl":"https://lh3.googleusercontent.com/a/AAcHTteb1Z1qJ0jkZ_waB0e6q4bc5Nc7NZaI50Vs3lXu_ghT=mo"}}
+[info] +  hosting[e-commerce-2dcc6]: release complete 
+[info] 
+[info] +  Deploy complete! 
+[info] 
+[info] Project Console: https://console.firebase.google.com/project/e-commerce-2dcc6/overview
+[info] Hosting URL: https://e-commerce-2dcc6.web.app
+[debug] [2023-07-16T10:46:53.964Z] Error: Timed out.
+    at Timeout._onTimeout (C:\Users\TANMAY\AppData\Roaming\npm\node_modules\firebase-tools\lib\utils.js:254:49)
+    at listOnTimeout (node:internal/timers:564:17)
+    at process.processTimers (node:internal/timers:507:7)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2023-07-17T14:21:54.996Z] ----------------------------------------------------------------------
+[debug] [2023-07-17T14:21:54.998Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\TANMAY\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2023-07-17T14:21:54.998Z] CLI Version:   12.4.4
+[debug] [2023-07-17T14:21:54.999Z] Platform:      win32
+[debug] [2023-07-17T14:21:54.999Z] Node Version:  v18.12.1
+[debug] [2023-07-17T14:21:55.000Z] Time:          Mon Jul 17 2023 19:51:54 GMT+0530 (India Standard Time)
+[debug] [2023-07-17T14:21:55.000Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-07-17T14:21:55.003Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2023-07-17T14:21:55.120Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-07-17T14:21:55.120Z] > authorizing via signed-in user (tanmaypani357@gmail.com)
+[debug] [2023-07-17T14:21:55.120Z] [iam] checking project e-commerce-2dcc6 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2023-07-17T14:21:55.121Z] > refreshing access token with scopes: []
+[debug] [2023-07-17T14:21:55.122Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2023-07-17T14:21:55.122Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-07-17T14:21:55.688Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2023-07-17T14:21:55.688Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-07-17T14:21:55.695Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/e-commerce-2dcc6:testIamPermissions [none]
+[debug] [2023-07-17T14:21:55.696Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/e-commerce-2dcc6:testIamPermissions x-goog-quota-user=projects/e-commerce-2dcc6
+[debug] [2023-07-17T14:21:55.696Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/e-commerce-2dcc6:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-07-17T14:21:55.989Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2023-07-17T14:21:55.989Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[debug] [2023-07-17T14:21:57.880Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/e-commerce-2dcc6:testIamPermissions 200
+[debug] [2023-07-17T14:21:57.880Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/e-commerce-2dcc6:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-07-17T14:21:57.881Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/e-commerce-2dcc6 [none]
+[debug] [2023-07-17T14:21:58.882Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/e-commerce-2dcc6 200
+[debug] [2023-07-17T14:21:58.882Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/e-commerce-2dcc6 {"projectId":"e-commerce-2dcc6","projectNumber":"760301230332","displayName":"E-commerce","name":"projects/e-commerce-2dcc6","resources":{"hostingSite":"e-commerce-2dcc6"},"state":"ACTIVE","etag":"1_1488bffd-0cc2-400d-a371-8b9ab54f6a3f"}
+[info] 
+[info] === Deploying to 'e-commerce-2dcc6'...
+[info] 
+[info] i  deploying hosting 
+[debug] [2023-07-17T14:21:58.889Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/e-commerce-2dcc6/versions [none]
+[debug] [2023-07-17T14:21:58.889Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/e-commerce-2dcc6/versions {"status":"CREATED","labels":{"deployment-tool":"cli-firebase"}}
+[debug] [2023-07-17T14:22:00.764Z] <<< [apiv2][status] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/e-commerce-2dcc6/versions 200
+[debug] [2023-07-17T14:22:00.764Z] <<< [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/e-commerce-2dcc6/versions {"name":"projects/760301230332/sites/e-commerce-2dcc6/versions/2c8e2a8dc6bbc1ec","status":"CREATED","config":{},"labels":{"deployment-tool":"cli-firebase"}}
+[info] i  hosting[e-commerce-2dcc6]: beginning deploy... 
+[info] i  hosting[e-commerce-2dcc6]: found 22 files in build 
+[debug] [2023-07-17T14:22:20.050Z] [hosting] uploading with 200 concurrency
+[debug] [2023-07-17T14:22:20.541Z] [hosting] hash cache [YnVpbGQ] stored for 22 files
+[debug] [2023-07-17T14:22:20.542Z] [hosting][hash queue][FINAL] {"max":473,"min":4,"avg":34.54545454545455,"active":0,"complete":22,"success":22,"errored":0,"retried":0,"total":22,"elapsed":478}
+[debug] [2023-07-17T14:22:20.542Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/projects/760301230332/sites/e-commerce-2dcc6/versions/2c8e2a8dc6bbc1ec:populateFiles [none]
+[debug] [2023-07-17T14:22:20.542Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/760301230332/sites/e-commerce-2dcc6/versions/2c8e2a8dc6bbc1ec:populateFiles {"files":{"/favicon.ico":"eae62e993eb980ec8a25058c39d5a51feab118bd2100c4deebb2a9c158ec11f9","/logo192.png":"3ee59515172ee198f3be375979df15ac5345183e656720a381b8872b2a39dc8b","/logo512.png":"ee7e2f3fdb8209c4b6fd7bef6ba50d1b9dba30a25bb5c3126df057e1cb6f5331","/manifest.json":"aff3449bdc238776f5d6d967f19ec491b36aed5fb7f23ccff6500736fd58494a","/robots.txt":"bfe106a3fb878dc83461c86818bf74fc1bdc7f28538ba613cd3e775516ce8b49","/asset-manifest.json":"481a41dc9c2617697d8667112a1f6e8346654ed3fef92d194e62b6bb3eed89f4","/index.html":"3d852bc3ff57fca67050eec5ae69641ab583c20c4d6229ba323bec924b432497","/static/css/main.1ca71819.css":"d9a00890528804c45c9ebce439cdc87e03623dcdae6b937fa6cb2a79db43a801","/static/css/main.1ca71819.css.map":"d24b0df9d020418fc8879471e16bfe446396585a3951f9cf954292c7faafcb41","/static/js/main.7e85e389.js.LICENSE.txt":"38ddf4e80abb85f2c16fb3fac76208b8bf65273f1f83a2265d85ffac35ed2bab","/static/media/ac.f2bc8b3a88c06b79b4e1.jpg":"e0f6882a382b9eadce848cd8f0f25c49c9cbfffb381b589489bf31e868944984","/static/media/laptop.e6b35f8fbbcefd3072de.jpg":"b6a41a0bbf9edc05137282085aba581ff07243e35ac636e040deda1613e79de0","/static/media/amazonLogoSignin.f6a8e10577a993a648b2.png":"7a98691dfee20a52060ba737b1fa09d00845eaed7f9a36b03b48c54a44bb4f3e","/static/media/amazonAd.b842b1e4bb0cc75ce652.jpg":"f0420498835c3b0e7fa3f1b47038d9d70bae16950ab847180439f0cf62b52d3e","/static/media/washingMachine.65a4d10b5b15a3f8ded2.jpg":"a84eba451059d27bc1a18c81a3e3b22179a4106cd17aae7e8f081bf321059992","/static/media/amazonLogo.c258172cbbfae08cdc8d.png":"3fbc0ec0b0c6ce053845b5f977c0bcd09a2fbaf36e6a44042f7557d0fa1e07e3","/static/media/cooler.8416bfac7eaf40ee2cae.jpg":"dd5a869fc82181d6842d8b5b2981e79de04aa53e29499f6bbc14a1ad973763ad","/static/media/bgImg.37e38a1c83060cf8ec40.jpg":"4cc768305c5feebeee23a12c3b45af7ae5e50c7439211aca0b3d8f0b1620a9d9","/static/media/sonytv.a76bd07181e7b5831ba0.png":"3c1e9c0a377fc9ae1f8e0e8010a22cb5d16094486e99006cf2da238a020da74a","/static/media/iphone14.aa98e771b044d50b3ab4.jpg":"1a5f0e72f71040d0d2b45922016cd9b1241fe6fd8ee7285adf0f6b17453b37ec","/static/js/main.7e85e389.js":"9d3a3a3128d1f6c6e17c516dca375f9eb6951a89afdec5fd0d74ca44c525fcc9","/static/js/main.7e85e389.js.map":"6bb6ee556b1f51c601a4b8ca3a92f9aaaf505018af08861c0e854a5964cb87fc"}}
+[debug] [2023-07-17T14:22:21.888Z] <<< [apiv2][status] POST https://firebasehosting.googleapis.com/v1beta1/projects/760301230332/sites/e-commerce-2dcc6/versions/2c8e2a8dc6bbc1ec:populateFiles 200
+[debug] [2023-07-17T14:22:21.888Z] <<< [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/760301230332/sites/e-commerce-2dcc6/versions/2c8e2a8dc6bbc1ec:populateFiles {"uploadRequiredHashes":["d24b0df9d020418fc8879471e16bfe446396585a3951f9cf954292c7faafcb41","d9a00890528804c45c9ebce439cdc87e03623dcdae6b937fa6cb2a79db43a801","6bb6ee556b1f51c601a4b8ca3a92f9aaaf505018af08861c0e854a5964cb87fc","481a41dc9c2617697d8667112a1f6e8346654ed3fef92d194e62b6bb3eed89f4","9d3a3a3128d1f6c6e17c516dca375f9eb6951a89afdec5fd0d74ca44c525fcc9","3d852bc3ff57fca67050eec5ae69641ab583c20c4d6229ba323bec924b432497"],"uploadUrl":"https://upload-firebasehosting.googleapis.com/upload/sites/e-commerce-2dcc6/versions/2c8e2a8dc6bbc1ec/files"}
+[debug] [2023-07-17T14:22:21.890Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/e-commerce-2dcc6/versions/2c8e2a8dc6bbc1ec/files/d24b0df9d020418fc8879471e16bfe446396585a3951f9cf954292c7faafcb41 [none]
+[debug] [2023-07-17T14:22:21.890Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/e-commerce-2dcc6/versions/2c8e2a8dc6bbc1ec/files/d24b0df9d020418fc8879471e16bfe446396585a3951f9cf954292c7faafcb41 [stream]
+[debug] [2023-07-17T14:22:21.892Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/e-commerce-2dcc6/versions/2c8e2a8dc6bbc1ec/files/d9a00890528804c45c9ebce439cdc87e03623dcdae6b937fa6cb2a79db43a801 [none]
+[debug] [2023-07-17T14:22:21.892Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/e-commerce-2dcc6/versions/2c8e2a8dc6bbc1ec/files/d9a00890528804c45c9ebce439cdc87e03623dcdae6b937fa6cb2a79db43a801 [stream]
+[debug] [2023-07-17T14:22:21.894Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/e-commerce-2dcc6/versions/2c8e2a8dc6bbc1ec/files/6bb6ee556b1f51c601a4b8ca3a92f9aaaf505018af08861c0e854a5964cb87fc [none]
+[debug] [2023-07-17T14:22:21.894Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/e-commerce-2dcc6/versions/2c8e2a8dc6bbc1ec/files/6bb6ee556b1f51c601a4b8ca3a92f9aaaf505018af08861c0e854a5964cb87fc [stream]
+[debug] [2023-07-17T14:22:21.896Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/e-commerce-2dcc6/versions/2c8e2a8dc6bbc1ec/files/481a41dc9c2617697d8667112a1f6e8346654ed3fef92d194e62b6bb3eed89f4 [none]
+[debug] [2023-07-17T14:22:21.896Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/e-commerce-2dcc6/versions/2c8e2a8dc6bbc1ec/files/481a41dc9c2617697d8667112a1f6e8346654ed3fef92d194e62b6bb3eed89f4 [stream]
+[debug] [2023-07-17T14:22:21.898Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/e-commerce-2dcc6/versions/2c8e2a8dc6bbc1ec/files/9d3a3a3128d1f6c6e17c516dca375f9eb6951a89afdec5fd0d74ca44c525fcc9 [none]
+[debug] [2023-07-17T14:22:21.899Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/e-commerce-2dcc6/versions/2c8e2a8dc6bbc1ec/files/9d3a3a3128d1f6c6e17c516dca375f9eb6951a89afdec5fd0d74ca44c525fcc9 [stream]
+[debug] [2023-07-17T14:22:21.901Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/e-commerce-2dcc6/versions/2c8e2a8dc6bbc1ec/files/3d852bc3ff57fca67050eec5ae69641ab583c20c4d6229ba323bec924b432497 [none]
+[debug] [2023-07-17T14:22:21.901Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/e-commerce-2dcc6/versions/2c8e2a8dc6bbc1ec/files/3d852bc3ff57fca67050eec5ae69641ab583c20c4d6229ba323bec924b432497 [stream]
+[debug] [2023-07-17T14:22:21.902Z] [hosting][populate queue][FINAL] {"max":1350,"min":1350,"avg":1350,"active":0,"complete":1,"success":1,"errored":0,"retried":0,"total":1,"elapsed":1362}
+[debug] [2023-07-17T14:22:21.902Z] [hosting] uploads queued: 6
+[debug] [2023-07-17T14:22:23.598Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/e-commerce-2dcc6/versions/2c8e2a8dc6bbc1ec/files/d9a00890528804c45c9ebce439cdc87e03623dcdae6b937fa6cb2a79db43a801 200
+[debug] [2023-07-17T14:22:23.598Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/e-commerce-2dcc6/versions/2c8e2a8dc6bbc1ec/files/d9a00890528804c45c9ebce439cdc87e03623dcdae6b937fa6cb2a79db43a801 [stream]
+[debug] [2023-07-17T14:22:23.622Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/e-commerce-2dcc6/versions/2c8e2a8dc6bbc1ec/files/d24b0df9d020418fc8879471e16bfe446396585a3951f9cf954292c7faafcb41 200
+[debug] [2023-07-17T14:22:23.622Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/e-commerce-2dcc6/versions/2c8e2a8dc6bbc1ec/files/d24b0df9d020418fc8879471e16bfe446396585a3951f9cf954292c7faafcb41 [stream]
+[debug] [2023-07-17T14:22:24.022Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/e-commerce-2dcc6/versions/2c8e2a8dc6bbc1ec/files/3d852bc3ff57fca67050eec5ae69641ab583c20c4d6229ba323bec924b432497 200
+[debug] [2023-07-17T14:22:24.022Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/e-commerce-2dcc6/versions/2c8e2a8dc6bbc1ec/files/3d852bc3ff57fca67050eec5ae69641ab583c20c4d6229ba323bec924b432497 [stream]
+[debug] [2023-07-17T14:22:24.040Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/e-commerce-2dcc6/versions/2c8e2a8dc6bbc1ec/files/481a41dc9c2617697d8667112a1f6e8346654ed3fef92d194e62b6bb3eed89f4 200
+[debug] [2023-07-17T14:22:24.040Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/e-commerce-2dcc6/versions/2c8e2a8dc6bbc1ec/files/481a41dc9c2617697d8667112a1f6e8346654ed3fef92d194e62b6bb3eed89f4 [stream]
+[debug] [2023-07-17T14:22:26.432Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/e-commerce-2dcc6/versions/2c8e2a8dc6bbc1ec/files/9d3a3a3128d1f6c6e17c516dca375f9eb6951a89afdec5fd0d74ca44c525fcc9 200
+[debug] [2023-07-17T14:22:26.432Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/e-commerce-2dcc6/versions/2c8e2a8dc6bbc1ec/files/9d3a3a3128d1f6c6e17c516dca375f9eb6951a89afdec5fd0d74ca44c525fcc9 [stream]
+[debug] [2023-07-17T14:22:33.089Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/e-commerce-2dcc6/versions/2c8e2a8dc6bbc1ec/files/6bb6ee556b1f51c601a4b8ca3a92f9aaaf505018af08861c0e854a5964cb87fc 200
+[debug] [2023-07-17T14:22:33.089Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/e-commerce-2dcc6/versions/2c8e2a8dc6bbc1ec/files/6bb6ee556b1f51c601a4b8ca3a92f9aaaf505018af08861c0e854a5964cb87fc [stream]
+[debug] [2023-07-17T14:22:33.089Z] [hosting][upload queue][FINAL] {"max":11200,"min":1709,"avg":3911.5,"active":0,"complete":6,"success":6,"errored":0,"retried":0,"total":6,"elapsed":11201}
+[info] +  hosting[e-commerce-2dcc6]: file upload complete 
+[debug] [2023-07-17T14:22:33.090Z] [hosting] deploy completed after 13050ms
+[debug] [2023-07-17T14:22:33.090Z] [
+  {
+    "config": {
+      "public": "build",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ],
+      "site": "e-commerce-2dcc6"
+    },
+    "version": "projects/760301230332/sites/e-commerce-2dcc6/versions/2c8e2a8dc6bbc1ec"
+  }
+]
+[info] i  hosting[e-commerce-2dcc6]: finalizing version... 
+[debug] [2023-07-17T14:22:33.092Z] >>> [apiv2][query] PATCH https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/e-commerce-2dcc6/versions/2c8e2a8dc6bbc1ec updateMask=status%2Cconfig
+[debug] [2023-07-17T14:22:33.092Z] >>> [apiv2][body] PATCH https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/e-commerce-2dcc6/versions/2c8e2a8dc6bbc1ec {"status":"FINALIZED","config":{"rewrites":[{"glob":"**","path":"/index.html"}]}}
+[debug] [2023-07-17T14:22:34.679Z] <<< [apiv2][status] PATCH https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/e-commerce-2dcc6/versions/2c8e2a8dc6bbc1ec 200
+[debug] [2023-07-17T14:22:34.679Z] <<< [apiv2][body] PATCH https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/e-commerce-2dcc6/versions/2c8e2a8dc6bbc1ec {"name":"projects/760301230332/sites/e-commerce-2dcc6/versions/2c8e2a8dc6bbc1ec","status":"FINALIZED","config":{"rewrites":[{"glob":"**","path":"/index.html"}]},"labels":{"deployment-tool":"cli-firebase"},"createTime":"2023-07-17T14:21:59.289296Z","createUser":{"email":"tanmaypani357@gmail.com"},"finalizeTime":"2023-07-17T14:22:33.415845Z","finalizeUser":{"email":"tanmaypani357@gmail.com"}}
+[debug] [2023-07-17T14:22:34.679Z] [hosting] finalized version for e-commerce-2dcc6:[object Object]
+[info] +  hosting[e-commerce-2dcc6]: version finalized 
+[info] i  hosting[e-commerce-2dcc6]: releasing new version... 
+[debug] [2023-07-17T14:22:34.680Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/e-commerce-2dcc6/channels/live/releases versionName=projects%2F760301230332%2Fsites%2Fe-commerce-2dcc6%2Fversions%2F2c8e2a8dc6bbc1ec
+[debug] [2023-07-17T14:22:34.680Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/e-commerce-2dcc6/channels/live/releases {}
+[debug] [2023-07-17T14:22:36.295Z] <<< [apiv2][status] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/e-commerce-2dcc6/channels/live/releases 200
+[debug] [2023-07-17T14:22:36.295Z] <<< [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/e-commerce-2dcc6/channels/live/releases {"name":"projects/760301230332/sites/e-commerce-2dcc6/channels/live/releases/1689603754392000","version":{"name":"projects/760301230332/sites/e-commerce-2dcc6/versions/2c8e2a8dc6bbc1ec","status":"FINALIZED","config":{"rewrites":[{"glob":"**","path":"/index.html"}]},"labels":{"deployment-tool":"cli-firebase"},"createTime":"2023-07-17T14:21:59.289296Z","createUser":{"email":"tanmaypani357@gmail.com","imageUrl":"https://lh3.googleusercontent.com/a/AAcHTteb1Z1qJ0jkZ_waB0e6q4bc5Nc7NZaI50Vs3lXu_ghT=mo"},"finalizeTime":"2023-07-17T14:22:33.415845Z","finalizeUser":{"email":"tanmaypani357@gmail.com","imageUrl":"https://lh3.googleusercontent.com/a/AAcHTteb1Z1qJ0jkZ_waB0e6q4bc5Nc7NZaI50Vs3lXu_ghT=mo"}},"type":"DEPLOY","releaseTime":"2023-07-17T14:22:34.392Z","releaseUser":{"email":"tanmaypani357@gmail.com","imageUrl":"https://lh3.googleusercontent.com/a/AAcHTteb1Z1qJ0jkZ_waB0e6q4bc5Nc7NZaI50Vs3lXu_ghT=mo"}}
+[debug] [2023-07-17T14:22:36.295Z] [hosting] release: {"name":"projects/760301230332/sites/e-commerce-2dcc6/channels/live/releases/1689603754392000","version":{"name":"projects/760301230332/sites/e-commerce-2dcc6/versions/2c8e2a8dc6bbc1ec","status":"FINALIZED","config":{"rewrites":[{"glob":"**","path":"/index.html"}]},"labels":{"deployment-tool":"cli-firebase"},"createTime":"2023-07-17T14:21:59.289296Z","createUser":{"email":"tanmaypani357@gmail.com","imageUrl":"https://lh3.googleusercontent.com/a/AAcHTteb1Z1qJ0jkZ_waB0e6q4bc5Nc7NZaI50Vs3lXu_ghT=mo"},"finalizeTime":"2023-07-17T14:22:33.415845Z","finalizeUser":{"email":"tanmaypani357@gmail.com","imageUrl":"https://lh3.googleusercontent.com/a/AAcHTteb1Z1qJ0jkZ_waB0e6q4bc5Nc7NZaI50Vs3lXu_ghT=mo"}},"type":"DEPLOY","releaseTime":"2023-07-17T14:22:34.392Z","releaseUser":{"email":"tanmaypani357@gmail.com","imageUrl":"https://lh3.googleusercontent.com/a/AAcHTteb1Z1qJ0jkZ_waB0e6q4bc5Nc7NZaI50Vs3lXu_ghT=mo"}}
+[info] +  hosting[e-commerce-2dcc6]: release complete 
+[info] 
+[info] +  Deploy complete! 
+[info] 
+[info] Project Console: https://console.firebase.google.com/project/e-commerce-2dcc6/overview
+[info] Hosting URL: https://e-commerce-2dcc6.web.app
+[debug] [2023-07-17T14:23:07.372Z] Error: Timed out.
+    at Timeout._onTimeout (C:\Users\TANMAY\AppData\Roaming\npm\node_modules\firebase-tools\lib\utils.js:254:49)
+    at listOnTimeout (node:internal/timers:564:17)
+    at process.processTimers (node:internal/timers:507:7)
+[error] 
+[error] Error: An unexpected error has occurred.

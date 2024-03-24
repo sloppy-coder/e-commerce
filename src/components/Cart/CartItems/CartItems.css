@@ -1,0 +1,38 @@
+
+.cartItems {
+    background-color: white;
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 5px;
+}
+.cartItems:hover {
+    box-shadow: 0 0 11px rgb(33, 33, 33);
+}
+
+.cartItemInfo {
+    padding-left: 20px
+}
+
+.cartItemInfo > Button {
+    background: #f0c14b;
+    border: 1px solid;
+    margin-top: 10px;
+    border-color: #a88734 #9c7e31 #846a29;
+    color: #111;
+}
+
+.cartItemImage {
+    object-fit: contain;
+    width: 180px;
+    height: 180px;
+}
+
+.cartItemRating {
+    display: flex;
+}
+
+.cartItemTitle {
+    font-size: 17px;
+    font-weight: 800;
+}

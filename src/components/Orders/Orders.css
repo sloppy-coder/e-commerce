@@ -1,0 +1,23 @@
+.orders {
+    background-color: white;
+    display: flex;
+    padding: 20px;
+    height: max-content;
+}
+.orderTitle {
+    margin-right: 10px;
+    padding: 10px;
+    border-bottom: 1px solid lightgray;
+}
+
+.cartItemscurr {
+    background-color: rgb(234, 237, 237);
+}
+
+.clearButton {
+    background: #f0c14b !important;
+    margin-top: 10px !important;
+    border-color: #a88734 #9c7e31 #846a29 !important;
+    color: #111 !important;
+    font-weight: 400 !important;
+}

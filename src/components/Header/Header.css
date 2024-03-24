@@ -1,0 +1,76 @@
+.header {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: #131921;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+.mainLogo {
+    width: 100px;
+    object-fit: contain;
+    margin: 0 20px;
+    margin-top: 18px;
+}
+.searchBar{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    border-radius: 24px;
+}
+.searchInput{
+    height: 12px;
+    padding: 10px;
+    border: none;
+    width: 100%;
+}
+.searchIcon {
+    padding: 5px;
+    height: 22px !important;
+    background-color: #cd9042;
+}
+.navBar {
+    display: flex;
+    justify-content: space-evenly;
+}
+.optionHeader {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+}
+.optionBasket {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.optionBasket:hover {
+    text-decoration: none;
+    box-shadow: 0 0 11px rgba(252, 250, 250, 0.902);
+    border-radius: 10px;
+}
+.optionOne {
+    font-size: 10px;
+}
+.optionTwo {
+    font-size: 13px;
+    font-weight: 800;
+    text-decoration: none;
+    color: white;
+}
+.optionTwo {
+    color: white;
+    text-decoration: none;
+}
+
+.optionTwo:hover {
+    text-decoration: none;
+    box-shadow: 0 0 11px rgba(252, 250, 250, 0.902);
+    border-radius: 10px;
+}
+.count {
+    margin-left: 10px;
+    margin-right: 10px;
+}
